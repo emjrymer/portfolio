@@ -13,28 +13,28 @@
         <div class="panel-heading">
             <h3 class="panel-title">Samples of Work</h3>
         </div>
-        <div class="panel-body">
-            <div class="portfolio-links">
-                <ul id="port-links">
+        <div class="panel-body" id="port-links">
+            <!-- <div class="portfolio-links">
+                <ul>
                     <li><a id="social-app"class="project-display" href="https://github.com/emjwivell/Social" target="_blank">Social App<span><img src="/static/app/img/Liquid Courage.png" alt="Liquid Courage" width=225px  /><br />Social App<p>#LiquidCourage is a social app that allows users to share there favorite drinks and recepies with others.  Included features: following other users and liking recipies.</p></span></a></li>
                     <li><a class="project-display" href="http://la-belle-fleur-ejw.us-east-1.elasticbeanstalk.com/" target="_blank">La Belle Fleur App<span><img src="/static/app/img/La-Belle-Fleur.png"  alt="La Belle Fleur App" width=225px  /><br />La Belle Fleur App<p>Created as a platform for Florists to sell their products with ease.  Consomers can also browse the gallery and make purchases.</p></span></a></li>
                     <li><a class="project-display" href="https://github.com/emjwivell/UltimateGuitar" target="_blank">Guitar Tab App<span><img src="/static/app/img/Guitar Getter.png"  alt="Guitar Tab App" width=225px  /><br />Guitar Tab App<p>This app was created for the guitar playing community, to enjoy looking up popular song tabs without the hassel of ads.</p></span></a></li>
                 </ul>
+            </div> -->
+            <div>
+            <p><a class="navLinks port-display-link" href = "javascript:void(0)" onclick = "document.getElementById('sociallight').style.display='block';document.getElementById('socialfade').style.display='block'">Social App</a></p>
+            <div id="sociallight" class="social_content"> <span><img class="port-display-img" src="/static/app/img/Liquid Courage.png" alt="Liquid Courage" width=225px  /><br /><a href="https://github.com/emjwivell/Social" target="_blank">Social App Code</a><br/><p>#LiquidCourage is a social app that allows users to share there favorite drinks and recepies with others.  Included features: following other users and liking recipies.</p></span> <a href = "javascript:void(0)" onclick = "document.getElementById('sociallight').style.display='none';document.getElementById('socialfade').style.display='none'"><img width=35px src="http://www.free-icons-download.net/images/green-back-button-icon-65921.png" alt="Back" /></a></div>
+            <div id="socialfade" class="social_overlay"></div>
             </div>
             <div>
-            <p><a href = "javascript:void(0)" onclick = "document.getElementById('sociallight').style.display='block';document.getElementById('socialfade').style.display='block'">Social App</a></p>
-           <div id="sociallight" class="social_content"> <span><img src="/static/app/img/Liquid Courage.png" alt="Liquid Courage" width=225px  /><br />Social App<p>#LiquidCourage is a social app that allows users to share there favorite drinks and recepies with others.  Included features: following other users and liking recipies.</p></span> <a href = "javascript:void(0)" onclick = "document.getElementById('sociallight').style.display='none';document.getElementById('socialfade').style.display='none'"><img width=35px src="http://www.free-icons-download.net/images/green-back-button-icon-65921.png" alt="Back" /></a></div>
-                <div id="socialfade" class="social_overlay"></div>
+            <p><a class="navLinks port-display-link" href = "javascript:void(0)" onclick = "document.getElementById('bellelight').style.display='block';document.getElementById('bellefade').style.display='block'">La Belle Fleur App</a></p>
+            <div id="bellelight" class="belle_content"> <span><img class="port-display-img" src="/static/app/img/La-Belle-Fleur.png"  alt="La Belle Fleur App" width=225px  /><br /><a href="http://la-belle-fleur-ejw.us-east-1.elasticbeanstalk.com/" target="_blank">La Belle Fleur Live App</a><br/><a href="https://github.com/emjwivell/final-project" target="_blank">La Belle Fleur Code</a><p>Created as a platform for Florists to sell their products with ease.  Consomers can also browse the gallery and make purchases.</p></span> <a href = "javascript:void(0)" onclick = "document.getElementById('bellelight').style.display='none';document.getElementById('bellefade').style.display='none'"><img width=35px src="http://www.free-icons-download.net/images/green-back-button-icon-65921.png" alt="Back" /></a></div>
+            <div id="bellefade" class="belle_overlay"></div>
             </div>
             <div>
-            <p><a href = "javascript:void(0)" onclick = "document.getElementById('bellelight').style.display='block';document.getElementById('bellefade').style.display='block'">La Belle Fleur App</a></p>
-           <div id="bellelight" class="belle_content"> <span><img src="/static/app/img/La-Belle-Fleur.png"  alt="La Belle Fleur App" width=225px  /><br />La Belle Fleur App<p>Created as a platform for Florists to sell their products with ease.  Consomers can also browse the gallery and make purchases.</p></span> <a href = "javascript:void(0)" onclick = "document.getElementById('bellelight').style.display='none';document.getElementById('bellefade').style.display='none'"><img width=35px src="http://www.free-icons-download.net/images/green-back-button-icon-65921.png" alt="Back" /></a></div>
-                <div id="bellefade" class="belle_overlay"></div>
-            </div>
-            <div>
-            <p><a href = "javascript:void(0)" onclick = "document.getElementById('guitarlight').style.display='block';document.getElementById('guitarfade').style.display='block'">Guitar Tab App</a></p>
-           <div id="guitarlight" class="guitar_content"> <span><img src="/static/app/img/Guitar Getter.png"  alt="Guitar Tab App" width=225px  /><br />Guitar Tab App<p>This app was created for the guitar playing community, to enjoy looking up popular song tabs without the hassel of ads.</p></span> <a href = "javascript:void(0)" onclick = "document.getElementById('guitarlight').style.display='none';document.getElementById('guitarfade').style.display='none'"><img width=35px src="http://www.free-icons-download.net/images/green-back-button-icon-65921.png" alt="Back" /></a></div>
-                <div id="guitarfade" class="guitar_overlay"></div>
+            <p><a class="navLinks port-display-link" href = "javascript:void(0)" onclick = "document.getElementById('guitarlight').style.display='block';document.getElementById('guitarfade').style.display='block'">Guitar Tab App</a></p>
+            <div id="guitarlight" class="guitar_content"> <span><img class="port-display-img" src="/static/app/img/Guitar Getter.png"  alt="Guitar Tab App" width=225px  /><br /><a href="https://github.com/emjwivell/UltimateGuitar" target="_blank">Guitar Tab Code</a><br/><p>This app was created for the guitar playing community, to enjoy looking up popular song tabs without the hassel of ads.</p></span> <a href = "javascript:void(0)" onclick = "document.getElementById('guitarlight').style.display='none';document.getElementById('guitarfade').style.display='none'"><img width=35px src="http://www.free-icons-download.net/images/green-back-button-icon-65921.png" alt="Back" /></a></div>
+            <div id="guitarfade" class="guitar_overlay"></div>
             </div>
         </div>
         <div class="banner-headshot">
@@ -46,9 +46,9 @@
         </div>
         <div class="panel-body" id="bio">
             <p class="indent">
-                In 1999, at the age of ten, I became an award winning programmer.  I brought home a trophy for a computer program I wrote about Space Shuttles.  Since then, coding has always held a warm place in my heart.  I have taken a few classes over the years, most recently a Java class in the winter of 2015, and coded in my spare time as a hobby.  I would open up notepad and type up html some html while at work.</p>
+                In 1999, at the age of ten, I became an award winning programmer.  I brought home a trophy for a computer program I wrote about Space Shuttles.  Since then, coding has always held a warm place in my heart.  I have taken a few classes over the years, most recently a Java class in the winter of 2015, and coded in my spare time as a hobby.  I would open up notepad and type up some html while at work.</p>
             <p class="indent">
-                It wasn't until I found <a href="https://www.theironyard.com/locations/greenville.html" target="_blank">THE IRON YARD GREENVILLE</a> that I challenged myself to turn my hobby into a career.  Aside for coding I also enjoy a good pun and I like to show off my amazing coding skills.  I absolutely LOVE to learn new things which means my days are full and asking questions and finding answers.  Pretty things are good, but pretty things with functionality are the best!</p>
+                It wasn't until I found <a href="https://www.theironyard.com/locations/greenville.html" target="_blank">THE IRON YARD GREENVILLE</a> that I challenged myself to turn my hobby into a career.  Aside for coding I also enjoy a good pun and I like to show off my amazing coding skills.  I absolutely LOVE to learn new things which means my days are full of asking questions and finding answers.  Pretty things are good, but pretty things with functionality are the best!</p>
         </div>
     </div>
     <div class="panel panel-default col-md-4">
