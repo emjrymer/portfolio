@@ -17,6 +17,31 @@ body {
     padding: 0;
 }
 
+@media(max-width:1199px) {
+    .navBar ul {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    .navBar ul > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .navBar ul > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
 .navBar div{
     display: inline;
 }
@@ -95,6 +120,12 @@ body {
     border-radius: 0px;
     color: white;
     padding: 13% 39%;
+}
+
+@media(max-width:767px) {
+    .banner {
+        padding-bottom: 15%;
+    }
 }
 
 .banner div{
